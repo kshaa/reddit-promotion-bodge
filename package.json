@@ -1,0 +1,14 @@
+{
+  "name": "reddit-promotion-bodge",
+  "version": "1.0.0",
+  "description": "Bodge to mark promotions in new Reddit layout",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/uglifyjs index.js -m -o index.min.js"
+  },
+  "author": "Krišjānis Veinbahs",
+  "license": "WTFPL",
+  "devDependencies": {
+    "uglify-js-es6": "^2.8.9"
+  }
+}
